@@ -1,4 +1,4 @@
-# wpno-vc
+# wpno-vc 一个功能比较完善的小说阅读网站的WordPress主题
 
 `wpno-vc` 是一个面向小说阅读站的 WordPress 主题，提供 PC / 移动端双端模板、付费阅读、小说批量导入、AI 内容与封面生成、SEO 结构化数据、订单与余额系统等能力。
 
@@ -12,8 +12,8 @@ License：`GPLv2 or later`
 - 付费阅读：余额、订单、商品、折扣、会员、推广佣金、提现申请等基础能力
 - 多支付方式：微信支付、支付宝、PayPal、虎皮椒，支持标准支付和仅余额支付
 - AI 生成：DeepSeek 生成简介、编辑推荐语和 SEO 信息；Qwen-Image 生成小说封面和 Banner；无 AI Key 时可用 GD 兜底生成封面
-- 小说导入：单本导入和批量导入，支持章节解析、自动建分类、自动生成封面
-- 阅读体验：书架、阅读历史、阅读进度、字号/背景/主题切换、章节排序
+- 小说导入：单本导入和批量导入，支持章节解析、自动建分类、自动生成封面。导入功能需要开始php的上传文件限制。
+- 阅读体验：书架、阅读历史、阅读进度、字号/背景/主题切换、章节排序，支持基于浏览器的webkitSpeechRecognition的文章朗读，支持朗读中自动翻页
 - SEO：精确 `title`、`description`、`canonical`、Open Graph、Twitter Card、JSON-LD、`robots.txt` 和自定义 Sitemap
 - 编辑运营：编辑推荐期次、首页轮播、广告位、首页分类和推荐小说配置
 - 安全加固：安全响应头、隐藏 WordPress 版本、关闭 XML-RPC、阻止作者枚举和 REST 用户枚举
@@ -203,6 +203,10 @@ WPNOVC
 - `php.ini` 是开发环境文件，生产环境请使用主机提供的 PHP 配置，不要直接依赖仓库内配置
 - 在后台保存一次固定链接，确保 `/bookshelf/`、`/reading-history/`、`/search/`、`/editor-picks/` 等虚拟路由生效
 - 确认支付回调地址、商户密钥和订单状态流转符合你的部署环境
+
+## 演示网站
+
+<a href="https://www.kknovels.com" target="_blank">快看小说网kknovels.com</a>
 
 ## License
 
