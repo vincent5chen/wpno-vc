@@ -1,0 +1,31 @@
+/*
+Theme Name: wpno-vc
+Theme URI: https://example.com
+Description: WordPress 小说主题 - 支持付费阅读、多语言、SEO优化
+Version: 1.0
+Author: wpno-vc
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 8.0
+License: GPLv2 or later
+Text Domain: wpno-vc
+Domain Path: /lang
+*/
+
+/*
+ * 主样式由 assets/css/pc.min.css 和 mobile.min.css 提供
+ * 此文件仅用于主题识别
+ */
+
+/* 视觉隐藏但屏幕阅读器/搜索引擎可读（用于首页 SEO H1） */
+.wpnovc-sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
