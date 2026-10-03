@@ -204,9 +204,6 @@ WPNOVC
 - 在后台保存一次固定链接，确保 `/bookshelf/`、`/reading-history/`、`/search/`、`/editor-picks/` 等虚拟路由生效
 - 确认支付回调地址、商户密钥和订单状态流转符合你的部署环境
 
-## 演示网站
-
-<a href="https://www.kknovels.com" target="_blank">快看小说网kknovels.com</a>
 
 ## License
 
